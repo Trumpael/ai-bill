@@ -14,6 +14,9 @@ import { useColorScheme } from "@/hooks/useColorScheme";
 import { create } from "zustand";
 import { useEffect } from "react";
 import { supabase } from "@/lib/supabase";
+import '@/global.css';
+
+// import "nativewind/tailwind.css";
 
 // const useBearStore = create((set) => ({
 //   bears: 0,
